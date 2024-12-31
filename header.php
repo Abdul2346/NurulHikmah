@@ -27,7 +27,7 @@ $nama = htmlspecialchars($d->nama ?? 'Pesantren', ENT_QUOTES, 'UTF-8');
     <link rel="msapplication-TileImage" content="uploads/identitas/<?= $favicon ?>">
 
     <!-- Judul -->
-    <title>Website <?= $nama ?></title>
+    <title><?= $nama ?></title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
