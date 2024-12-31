@@ -18,7 +18,7 @@ $background = mysqli_fetch_object($result_bg);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Login</title>
+    <title>Sign In</title>
     <link rel="icon" href="uploads/identitas/<?= $d->favicon ?>">
 
     <link rel="apple-touch-icon" href="uploads/identitas/<?= $d->favicon ?>">
